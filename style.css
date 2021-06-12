@@ -1,0 +1,57 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.jumbotron {
+    background-image: url(bg.jpg);
+    background-size: cover;
+    height: 610px;
+    width: 100%;
+    text-align: center;
+}
+
+.jumbotron .display-4 {
+text-align: center;
+margin-top: 75px;
+}
+
+.jumbotron .jarak {
+    padding-bottom: 5px;
+}
+
+.jumbotron .lead {
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+@media screen and (min-width: 992px) {
+    .navbar {
+        background: transparent;
+    }
+    .jumbotron {
+        margin-top: -56px;
+    }
+}
+
+.jumbotron p {
+    margin-top: 35px;
+    font-size: 20px;
+    color: seashell;
+}
+
+.jumbotron hr {
+    background-color: red;
+    width: 100px;
+    border-radius: 150px;
+    border-width: 5px;
+}
+
+.jumbotron .btn {
+    background-color: yellowgreen;
+    border: none;
+    border-radius: 120px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
