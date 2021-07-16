@@ -1,33 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Architects+Daughter&family=Itim&display=swap');
+
 html {
     scroll-behavior: smooth;
 }
 
+a .nav-link .atas {
+    padding: 50px;
+}
+
 .jumbotron {
-    background-image: url(bg.jpg);
+    background-image: url(bg2.jpg);
     background-size: cover;
-    height: 610px;
+    height: 100%;
     width: 100%;
     text-align: center;
 }
 
 .jumbotron .display-4 {
-text-align: center;
-margin-top: 75px;
+    text-align: center;
+    margin-top: 90px;
+    color: #161616;
+    font-family: 'Aclonica', sans-serif;
 }
 
 .jumbotron .jarak {
     padding-bottom: 5px;
+    color: #161616;
+    margin-top: -15px;
 }
 
 .jumbotron .lead {
-    margin-top: 10px;
+    margin-top: 80px;
     margin-bottom: 40px;
+    color: seashell;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 23px;
 }
 
 @media screen and (min-width: 992px) {
     .navbar {
         background: transparent;
     }
+
     .jumbotron {
         margin-top: -56px;
     }
@@ -35,8 +49,9 @@ margin-top: 75px;
 
 .jumbotron p {
     margin-top: 35px;
-    font-size: 20px;
+    font-size: 22px;
     color: seashell;
+    font-family: 'Architects Daughter', cursive;
 }
 
 .jumbotron hr {
@@ -47,11 +62,12 @@ margin-top: 75px;
 }
 
 .jumbotron .btn {
-    background-color: yellowgreen;
+    background-color: #AC66CC;
     border: none;
     border-radius: 120px;
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
+    font-family: 'Itim', cursive;
 }
