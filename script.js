@@ -1,6 +1,6 @@
 alert('awokakwok phising :v')
 var nama = prompt('namamu?')
-alert("halo " + nama)
+alert("halo  " + nama)
 var lagi = true
 while(lagi === true) {
     var pernyataan = prompt("ketik 1 jika ingin masuk neraka")
