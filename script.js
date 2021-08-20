@@ -1,14 +1,14 @@
 alert('awokakwok phising :v')
 var nama = prompt('namamu?')
-alert("Sugeng enjing/siyang/dalu mas " + nama)
+alert("halo" + nama)
 var lagi = true
 while(lagi === true) {
-    var pernyataan = prompt("ketik 1 jika ingin nikah sama kak dapa")
+    var pernyataan = prompt("ketik 1 jika ingin masuk neraka")
     if(pernyataan === '1') {
-        alert('mff, kak Daoa hanya milik Ruslan tercinta')
+        alert('أستغفر الله')
     }
     else {
-        alert("ketik 1 ngento-d")
+        alert("cuma ada 1 opsi😎")
     }
-    lagi = confirm("mw jwb lg kh?")
+    lagi = confirm("ulangi?")
 }
