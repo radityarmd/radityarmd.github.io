@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Pangolin&family=Righteous&display=swap");
+.judul {
+  font-family: "righteous";
+  font-size: 40px;
+}
+.pengantar {
+  font-family: "pangolin";
+  text-align: justify;
+}
+.perubahan-iklim {
+  font-family: "righteous";
+}
+.pengertian {
+  text-align: justify;
+  font-family: 'pangolin';
+}
+.judul-kampanye {
+  font-family: "righteous";
+  font-size: 35px;
+}
+.kampanye {
+  text-align: justify;
+  font-family: 'pangolin';
+}
+.penjelasan {
+  font-family: "pangolin";
+  text-align: justify;
+}
+.isi-kampanye {
+  font-family: "righteous";
+  font-size: 20px;
+}
