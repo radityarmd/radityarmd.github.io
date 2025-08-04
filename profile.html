@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <link rel="stylesheet" href="profil.css" />
+    <link rel="icon" href="icon.png" />
+
+    <title>Profile</title>
+    <!-- Navbar Start -->
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="maiNav">
+            <div class="container">
+                <a class="navbar-brand" href="#profile"><img src="icon.png" alt="" width="35" class="d-inline-block align-text-top" /></a>
+                <button class="navbar-toggler navbar-toggler-right bg-dark" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link atas" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link atas" href="profile.html">Profile</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link atas" href="IOT.html">IOT</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Programming Language </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li class="dropdown-item" href="#">Web Development &raquo;</li>
+                                <ul class="hidden1">
+                                    <li><a class="dropdown-item" href="page1.html">Html</a></li>
+                                    <li><a class="dropdown-item" href="#">Css</a></li>
+                                    <li><a class="dropdown-item" href="#">JavaScript</a></li>
+                                </ul>
+                                <li class="dropdown-item" href="#">Software Development &raquo;</li>
+                                <ul class="hidden2">
+                                    <li><a class="dropdown-item" href="#">Python</a></li>
+                                    <li><a class="dropdown-item" href="#">PHP</a></li>
+                                    <li><a class="dropdown-item" href="#">Java</a></li>
+                                    <li><a class="dropdown-item" href="#">JavaScript</a></li>
+                                    <li><a class="dropdown-item" href="#">C / C++ / C#</a></li>
+                                </ul>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    <!-- Navbar End -->
+    <style>
+      body {
+        font-family: "Segoe UI", Arial, sans-serif;
+        background: #f4f8fb;
+        margin: 0;
+        padding: 0;
+      }
+      .profile-container {
+        max-width: 500px;
+        background: #fff;
+        margin: 40px auto;
+        border-radius: 12px;
+        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.07);
+        padding: 32px 28px;
+      }
+      .profile-header {
+        text-align: center;
+        margin-bottom: 24px;
+      }
+      .profile-header h1 {
+        margin: 0 0 8px 0;
+        color: #007662;
+      }
+      .profile-header p {
+        color: #555;
+        margin: 0;
+      }
+      .profile-section {
+        margin-bottom: 20px;
+      }
+      .profile-section h2 {
+        font-size: 1.1em;
+        color: #333;
+        margin-bottom: 8px;
+        border-bottom: 1px solid #eee;
+        padding-bottom: 4px;
+      }
+      .profile-section ul {
+        margin: 0;
+        padding-left: 18px;
+      }
+      .profile-section li {
+        margin-bottom: 6px;
+      }
+      .profile-contact a {
+        color: #007662;
+        text-decoration: none;
+      }
+      .profile-contact a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+    <div class="profile-container">
+      <div class="profile-header">
+        <h1>Raditya Putra Ramadhan</h1>
+        <p>Sidoarjo, Jawa Timur</p>
+      </div>
+      <div class="profile-section" style="text-align: center; margin-bottom: 28px">
+        <img src="profil.jpg" alt="Foto Profil Raditya Putra Ramadhan" style="width: 200px; height: 200px; object-fit: scale-down; border-radius: 50%; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08)" />
+      </div>
+      <div class="profile-section profile-contact">
+        <h2>Kontak</h2>
+        <ul>
+          <li>Email: <a href="mailto:radityaputra599@gmail.com">radityaputra599@gmail.com</a></li>
+          <li>Instagram: <a href="https://instagram.com/radtyptr" target="_blank">@radtyptr</a></li>
+        </ul>
+      </div>
+      <div class="profile-section">
+        <h2>Riwayat Pendidikan</h2>
+        <ul>
+          <li>SD Negeri Kedungturi, Sidoarjo, 2014 - 2019</li>
+          <li>SMP Negeri 22 Surabaya, Surabaya, 2019 - 2022</li>
+          <li>SMA Negeri 5 Surabaya, Surabaya, 2022 - 2025</li>
+          <li>Institut Teknologi Bandung, Bandung, 2025 - sekarang</li>
+          <!-- Tambahkan pendidikan lain jika ada -->
+        </ul>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+  </body>
+</html>

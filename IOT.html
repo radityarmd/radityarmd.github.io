@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <link rel="stylesheet" href="IOT.css" />
+    <link rel="icon" href="icon.png" />
+
+    <title>IOT</title>
+    <!-- Tambahkan CSS jika navbar di index.html menggunakan CSS eksternal -->
+    <link rel="stylesheet" href="IOT.css">
+</head>
+<body>
+    <!-- NAVBAR START -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="maiNav">
+            <div class="container">
+                <a class="navbar-brand" href="#profile"><img src="icon.png" alt="" width="35" class="d-inline-block align-text-top" /></a>
+                <button class="navbar-toggler navbar-toggler-right bg-dark" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link atas" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link atas" href="profile.html">Profile</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link atas" href="IOT.html">IOT</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Programming Language </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li class="dropdown-item" href="#">Web Development &raquo;</li>
+                                <ul class="hidden1">
+                                    <li><a class="dropdown-item" href="page1.html">Html</a></li>
+                                    <li><a class="dropdown-item" href="#">Css</a></li>
+                                    <li><a class="dropdown-item" href="#">JavaScript</a></li>
+                                </ul>
+                                <li class="dropdown-item" href="#">Software Development &raquo;</li>
+                                <ul class="hidden2">
+                                    <li><a class="dropdown-item" href="#">Python</a></li>
+                                    <li><a class="dropdown-item" href="#">PHP</a></li>
+                                    <li><a class="dropdown-item" href="#">Java</a></li>
+                                    <li><a class="dropdown-item" href="#">JavaScript</a></li>
+                                    <li><a class="dropdown-item" href="#">C / C++ / C#</a></li>
+                                </ul>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    <!-- NAVBAR END -->
+    <div class="jumbotron" style="padding: 8% 5%; max-width:fit-content; background: #f8f9fa;">
+        <h1 style="text-align: center;">Internet of Thinks</h1>
+        <h4 style="text-align: center;">Ketika Inovasi Menyalakan Jalan Masa Depan</h4>
+        <br>
+        <br>
+        <p style="text-align: justify;">
+            Pernahkah kamu berhenti sejenak di sebuah perempatan, menatap lampu merah sambil bertanya-tanya, bagaimana semua kendaraan bisa berjalan rapi, bergiliran, tanpa tabrakan? Atau ketika palang kereta mulai menutup perlahan, seakan tahu pasti bahwa dalam hitungan detik akan melintas kereta panjang dengan kecepatan tinggi? Pertanyaan-pertanyaan kecil itu—yang sering luput dari perhatian kita—menjadi titik mula dari proyek akhir informatika kelas 12 kami yang mengusung konsep penerapan IOT. Project ini bukan sekadar nama. Ia adalah representasi dari inisiatif dan rasa ingin tahu kami terhadap dunia Internet of Things (IoT)—sebuah ranah yang menjadi fokus materi pembelajaran di semester akhir. Kami ingin lebih dari sekadar memahami konsep. Kami ingin merasakannya. Menyentuhnya. Dan yang paling penting: mengaplikasikannya untuk menjawab masalah nyata di sekitar kita. Kelompok kami memilih membangun sebuah diorama. Bukan sembarang diorama, melainkan sebuah miniatur sistem transportasi yang menggabungkan dua elemen krusial: lampu lalu lintas di perempatan dan sistem buka-tutup palang kereta api. Di sinilah perjalanan kami dimulai—perjalanan yang mengubah cara pandang saya terhadap teknologi dan, secara mengejutkan, terhadap masa depan saya sendiri.
+        </p>
+        <br>
+        <h3>Merancang Lebih dari Sekadar Nyala Lampu</h3>
+        <p style="text-align: justify;">
+            Bagian pertama dari proyek ini terlihat sederhana: menyalakan lampu merah, kuning, dan hijau secara bergantian. Namun, kami segera menyadari bahwa ini bukan tentang sekadar mengatur waktu nyala. Ini tentang memastikan arus kendaraan tidak saling bertabrakan. Ini tentang memprogram dengan presisi dan logika yang matang. Saya menulis baris demi baris kode, memetakan urutan nyala lampu seperti menyusun sebuah tarian lalu lintas. Setiap detik dan jeda harus dipertimbangkan. Setiap perubahan harus disimulasikan berkali-kali. Karena dalam dunia nyata, kesalahan sekecil apa pun bisa berarti kekacauan di jalan raya.
+        </p>
+        <br>
+        <h3>Menyambut Kereta dengan Sensor</h3>
+        <p style="text-align: justify;">
+            Bagian kedua proyek ini membawa tantangan yang lebih dalam: menciptakan sistem palang kereta otomatis menggunakan sensor ultrasonik. Arduino menjadi otak dari sistem kami, sedangkan servo motor bertugas menggerakkan palang berdasarkan jarak kereta yang terdeteksi. Saya belajar menghitung estimasi jarak optimal antara sensor dan posisi kereta. Terlalu cepat, palang akan tertutup sia-sia. Terlalu lambat, bisa berisiko bagi pengguna jalan. Perlu keseimbangan antara kecepatan, keamanan, dan efisiensi—tiga aspek yang menjadi nyawa dari sistem transportasi yang ideal.
+        </p>
+        <br>
+        <h3>Teknologi, Empati, dan Masa Depan</h3>
+        <p style="text-align: justify;">
+            Di titik inilah saya mulai melihat proyek ini lebih dari sekadar tugas sekolah. Project ini menjadi semacam jembatan antara dunia teoritis yang saya pelajari di kelas, dan dunia nyata yang menuntut solusi konkret. Saya mulai memahami bahwa teknologi bukan hanya alat. Ia adalah bahasa baru untuk merespons permasalahan sosial. Dan keselamatan transportasi adalah salah satunya. Di balik kabel, sensor, dan baris kode yang saya susun, terselip nilai-nilai penting: berpikir sistematis, menyadari dampak pekerjaan kita terhadap keselamatan orang lain, dan belajar untuk tidak gegabah dalam mengambil keputusan teknis. Semua ini menegaskan satu hal: bahwa saya ingin berada di dunia teknik. Dunia tempat saya bisa menciptakan, membangun, dan memberi makna lewat inovasi.
+        </p>
+        <br>
+        <h3>Bukan Sekadar Tugas, Tapi Titik Awal</h3>
+        <p style="text-align: justify;">
+            Project ini telah membuka mata saya. Ia bukan hanya proyek akhir informatika, melainkan awal dari kesadaran baru tentang apa yang bisa saya lakukan di masa depan. Sebuah miniatur kecil yang ternyata mampu memberi saya pandangan besar tentang arah hidup. Saya masih ingat saat pertama kali menyolder kabel yang terlalu pendek, atau saat kode saya menghasilkan kesalahan loop tak berujung. Namun kini, saya juga ingat bagaimana kami berhasil menyempurnakannya, dan melihat palang kereta itu bergerak sesuai deteksi. Ada rasa haru yang tak bisa dijelaskan. Barangkali inilah hakikat dari belajar: bukan tentang menyelesaikan tugas, melainkan membiarkan tugas itu membentuk kita menjadi pribadi yang lebih peka, lebih siap, dan lebih berani menatap masa depan.
+        </p>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+</body>
+</html>        

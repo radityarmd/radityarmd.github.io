@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Architects+Daughter&family=Itim&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+a .nav-link .atas {
+    padding: 50px;
+}
+@media screen and (min-width: 992px) {
+    .navbar {
+        background: transparent;
+    }
+
+    .jumbotron {
+        margin-top: -56px;
+    }
+}

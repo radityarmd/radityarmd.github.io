@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Architects+Daughter&family=Itim&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+a .nav-link .atas {
+    padding: 50px;
+}
+@media screen and (min-width: 992px) {
+    .navbar {
+        background: transparent;
+    }
+
+    .jumbotron {
+        margin-top: -56px;
+    }
+}
+body {
+  font-family: 'Itim', 'Architects Daughter', 'Aclonica', cursive, sans-serif;
+  background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+  color: #222;
+  margin: 0;
+  padding: 0;
+}
+
+.jumbotron {
+  background: rgba(255,255,255,0.85);
+  border-radius: 24px;
+  box-shadow: 0 8px 32px rgba(31,38,135,0.15);
+  padding: 60px 30px;
+  text-align: center;
+  margin: 40px auto;
+  max-width: 800px;
+}
+
+h1, h2, h3 {
+  font-family: 'Aclonica', cursive, sans-serif;
+  color: #0077b6;
+  margin-bottom: 16px;
+}
+
+p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #444;
+}
+
+button, .btn {
+  background: linear-gradient(90deg, #0077b6 0%, #00b4d8 100%);
+  color: #fff;
+  border: none;
+  border-radius: 24px;
+  padding: 12px 32px;
+  font-size: 1rem;
+  font-family: inherit;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0,119,182,0.12);
+  transition: background 0.2s, box-shadow 0.2s;
+}
+
+button:hover, .btn:hover {
+  background: linear-gradient(90deg, #00b4d8 0%, #0077b6 100%);
+  box-shadow: 0 4px 16px rgba(0,119,182,0.18);
+}
+
+footer {
+  background: #0077b6;
+  color: #fff;
+  text-align: center;
+  padding: 24px 0;
+  border-radius: 24px 24px 0 0;
+  margin-top: 60px;
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
+
+@media (max-width: 768px) {
+  .jumbotron {
+    padding: 30px 10px;
+    margin: 20px 8px;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+}

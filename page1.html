@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- ini adalah icon title bar -->
+    <link rel="icon" href="icon.png" />
+
+    <!-- ini adalah css -->
+    <link rel="stylesheet" href="page1.css" />
+
+    <!-- ini adalah js -->
+    <script src="script.js"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+
+  <title>HTML: Gerbang Awal Menjadi Arsitek Dunia Web</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        line-height: 1.8;
+        max-width: 100%;
+        margin: auto;
+        padding: 0;
+        background-color: #fefefe;
+        color: #333;
+    }
+
+    h1, h2, h3 {
+        color: #1a73e8;
+    }
+    code {
+        background-color: #f4f4f4;
+        padding: 2px 6px;
+        border-radius: 4px;
+        font-family: monospace;
+    }
+    pre {
+        background-color: #f4f4f4;
+        padding: 10px;
+        border-left: 4px solid #1a73e8;
+        overflow-x: auto;
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 16px 0;
+    }
+    th, td {
+        padding: 10px;
+        border: 1px solid #ccc;
+        text-align: left;
+    }
+    a {
+        color: #1a73e8;
+        text-decoration: none;
+    }
+</style>
+</head>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="maiNav">
+      <div class="container">
+        <a class="navbar-brand" href="#profile"><img src="icon.png" alt="" width="35" class="d-inline-block align-text-top" /></a>
+        <button class="navbar-toggler navbar-toggler-right bg-dark" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link atas" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link atas" href="profile.html">Profile</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link atas" href="IOT.html">IOT</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Programming Language </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li class="dropdown-item" href="#">Web Development &raquo;</li>
+                <ul class="hidden1">
+                  <li><a class="dropdown-item" href="page1.html">Html</a></li>
+                  <li><a class="dropdown-item" href="#">Css</a></li>
+                  <li><a class="dropdown-item" href="#">JavaScript</a></li>
+                </ul>
+                <li class="dropdown-item" href="#">Software Development &raquo;</li>
+                <ul class="hidden2">
+                  <li><a class="dropdown-item" href="#">Python</a></li>
+                  <li><a class="dropdown-item" href="#">PHP</a></li>
+                  <li><a class="dropdown-item" href="#">Java</a></li>
+                  <li><a class="dropdown-item" href="#">JavaScript</a></li>
+                  <li><a class="dropdown-item" href="#">C / C++ / C#</a></li>
+                </ul>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+<body>
+
+<br>
+<br>
+  <h1 style="color: #333; text-align: center;">HTML: Gerbang Awal Menjadi Arsitek Dunia Web</h1>
+<br>
+<div class="jumbotron" style="padding: 8% 5%; max-width:fit-content; background: #f8f9fa;">
+
+  <p>Bayangkan kamu berjalan di tengah kota besar yang gemerlap. Gedung-gedung tinggi menjulang, jalan-jalan tertata, dan papan-papan penunjuk arah membantu kamu memahami ke mana harus melangkah. Sekarang bayangkan dunia internet seperti kota itu—penuh halaman, struktur, dan konten yang rapi. Tapi apa yang membuat semua itu bisa terlihat dan terhubung? Jawabannya: <strong>HTML</strong>.</p>
+
+  <p>Bagi siapa pun yang ingin masuk ke dunia pengembangan web, HTML adalah <em>gerbang pertama</em>. Ia mungkin terlihat sederhana, namun tanpa HTML, tidak akan ada situs yang bisa kamu akses hari ini. Artikel ini akan membimbingmu dari pengenalan HTML, struktur dasarnya, hingga praktik penggunaannya. Mari kita mulai membangun fondasi digitalmu!</p>
+
+  <h2>Apa Itu HTML?</h2>
+
+  <p>HTML adalah singkatan dari <strong>HyperText Markup Language</strong>. Ini adalah <em>bahasa markah standar</em> yang digunakan untuk membuat dan menyusun halaman web.</p>
+
+  <p>Bayangkan kamu menulis resep makanan. HTML adalah seperti daftar instruksi yang memberi tahu browser: "ini judulnya", "ini paragraf", "ini gambar", "ini tautan ke halaman lain", dan sebagainya.</p>
+
+  <p>Namun ingat: HTML <strong>bukan</strong> bahasa pemrograman seperti Python atau JavaScript. HTML <strong>tidak bisa menghitung, menyimpan variabel, atau menjalankan logika</strong>. Ia hanya mendeskripsikan <strong>struktur dan isi</strong> dari halaman web.</p>
+
+  <h2>🧱 Struktur Dasar HTML</h2>
+
+  <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;Judul Halaman&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1&gt;Halo, dunia!&lt;/h1&gt;
+    &lt;p&gt;Ini adalah paragraf pertama saya dalam HTML.&lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</code></pre>
+
+  <h3>Penjelasan Kode:</h3>
+  <table>
+    <tr>
+      <th>Elemen</th>
+      <th>Fungsi</th>
+    </tr>
+    <tr>
+      <td>&lt;!DOCTYPE html&gt;</td>
+      <td>Mendeklarasikan bahwa ini adalah dokumen HTML5</td>
+    </tr>
+    <tr>
+      <td>&lt;html&gt;</td>
+      <td>Elemen akar dari seluruh dokumen</td>
+    </tr>
+    <tr>
+      <td>&lt;head&gt;</td>
+      <td>Berisi informasi meta (tidak ditampilkan di halaman)</td>
+    </tr>
+    <tr>
+      <td>&lt;title&gt;</td>
+      <td>Judul halaman yang muncul di tab browser</td>
+    </tr>
+    <tr>
+      <td>&lt;body&gt;</td>
+      <td>Semua isi halaman web yang terlihat pengguna</td>
+    </tr>
+  </table>
+
+  <h2>🧩 Elemen-Elemen HTML Penting</h2>
+
+  <h3>1. Heading (Judul)</h3>
+  <pre><code>&lt;h1&gt;Judul Utama&lt;/h1&gt;
+&lt;h2&gt;Subjudul&lt;/h2&gt;
+&lt;h3&gt;Sub-subjudul&lt;/h3&gt;</code></pre>
+
+  <h3>2. Paragraf</h3>
+  <pre><code>&lt;p&gt;Ini adalah sebuah paragraf.&lt;/p&gt;</code></pre>
+
+  <h3>3. Tautan (Link)</h3>
+  <pre><code>&lt;a href="https://www.google.com"&gt;Kunjungi Google&lt;/a&gt;</code></pre>
+
+  <h3>4. Gambar</h3>
+  <pre><code>&lt;img src="gambar.jpg" alt="Deskripsi Gambar"&gt;</code></pre>
+
+  <h3>5. Daftar</h3>
+  <p><strong>a. Tidak berurutan:</strong></p>
+  <pre><code>&lt;ul&gt;
+  &lt;li&gt;Kopi&lt;/li&gt;
+  &lt;li&gt;Teh&lt;/li&gt;
+&lt;/ul&gt;</code></pre>
+
+  <p><strong>b. Berurutan:</strong></p>
+  <pre><code>&lt;ol&gt;
+  &lt;li&gt;Bangun pagi&lt;/li&gt;
+  &lt;li&gt;Minum teh&lt;/li&gt;
+&lt;/ol&gt;</code></pre>
+
+  <h3>6. Tabel</h3>
+  <pre><code>&lt;table border="1"&gt;
+  &lt;tr&gt;
+    &lt;th&gt;Nama&lt;/th&gt;
+    &lt;th&gt;Umur&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Radit&lt;/td&gt;
+    &lt;td&gt;18&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;</code></pre>
+
+  <h3>7. Formulir (Form)</h3>
+  <pre><code>&lt;form action="/submit" method="post"&gt;
+  &lt;label for="nama"&gt;Nama:&lt;/label&gt;
+  &lt;</code></pre>
+
+  <h2>🛠️ Tools yang Digunakan</h2>
+  <p>Untuk mulai menulis HTML, kamu hanya butuh:</p>
+  <ul>
+    <li>Teks editor (VS Code, Sublime Text, Notepad++)</li>
+    <li>Browser (Chrome, Firefox, Edge)</li>
+    <li>File HTML dengan ekstensi <code>.html</code></li>
+  </ul>
+
+  <h3>Contoh: Membuat File HTML Pertama</h3>
+  <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;Halaman Pertama Saya&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1&gt;Selamat Datang di Dunia Web!&lt;/h1&gt;
+    &lt;p&gt;Saya sedang belajar HTML.&lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</code></pre>
+<br>
+  <p>HTML adalah <strong>fondasi dari semua halaman web</strong>. Ia mungkin tidak "pintar" seperti JavaScript atau secantik CSS, tapi tanpanya, web tidak akan bisa eksis. Mempelajari HTML bukan hanya tentang menghafal tag, tapi t<br>ng memahami bagaimana <em>struktur, hierarki, dan komunikasi</em> antar elemen terjadi di dunia digital.</p>
+
+  <p>Jika kamu bisa memahami HTML, maka kamu telah membuka pintu menuju dunia yang sangat luas: desain web, front-end development, bahkan hingga pengembangan aplikasi kompleks.</p>
+
+  <p>Karena semua yang besar… selalu dimulai dari struktur kecil. Dan HTML adalah struktur pertama yang harus kamu bangun.</p>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
